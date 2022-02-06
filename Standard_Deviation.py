@@ -41,4 +41,16 @@ for dif in Variance_array:
     # And print out the squared value
     print(square_dif_spd2)
 
-    
+    print("------------ Variance square ------------")
+    # The Variance squared are just the numbers added together and devidede by the amount of numbers
+    Variance_square = (2061.16+1128.96+3672.36+2440.36+338.56+0.16+384.16) / 7
+    print(Variance_square)
+
+    # To automate all that, we can also just use the var() function in numpy, but all of that above was to understand how it works, tho it is simple math
+
+    print("------------ Variation automated with numpy ------------")
+    Variance_array_var = numpy.var(Variance_array)
+    print(Variance_array_var)
+
+    # Standard Deviation is often represented by the symbol Sigma: σ 
+    # Variance is often represented by the symbol Sigma Square: σ2 
