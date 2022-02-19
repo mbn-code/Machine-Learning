@@ -14,7 +14,7 @@ speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
             # r is the relationship between variables
 slope, intercept, r, p, std_err = stats.linregress(age,speed)
 
-# Function which uses slop eand intercept values to return x. The value represents where on the y axies the x value will be placed
+# Function which uses slop and intercept values to return x. The value represents where on the y axis the x value will be placed
 def main(x):
     return slope * x + intercept
 

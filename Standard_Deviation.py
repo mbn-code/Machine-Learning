@@ -16,7 +16,7 @@ print("------------ Deviation ------------")
 print(deviation_1)
 print(deviation_2)
 
-# Findingn the mean without moduel
+# Finding the mean without module
 
 # Get the mean
 Variance_raw_num = (32+111+138+28+59+77+97) / 7
@@ -34,15 +34,15 @@ for dif in Variance_array:
     # Get the differnce between two numbers
     difference_spd2 = (dif - Variance_raw_num)
 
-    # Print out "difference for {difference_spd2}" so the user knows which squlare value the differnce is for
+    # Print out "difference for {difference_spd2}" so the user knows which square value the difference is for
     print(f"difference for {difference_spd2}:")
-    # Get the squared value of the differnce
+    # Get the squared value of the difference
     square_dif_spd2 = difference_spd2**2
     # And print out the squared value
     print(square_dif_spd2)
 
     print("------------ Variance square ------------")
-    # The Variance squared are just the numbers added together and devidede by the amount of numbers
+    # The Variance squared are just the numbers added together and divided by the amount of numbers
     Variance_square = (2061.16+1128.96+3672.36+2440.36+338.56+0.16+384.16) / 7
     print(Variance_square)
 

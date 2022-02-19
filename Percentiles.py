@@ -16,7 +16,7 @@ percentile_age2 = numpy.percentile(ages2, 75)
 print(percentile_age2)
 
 
-# Here the age taht 90% of them are unger then is 61.
+# Here the age that 90% of them are younger then is 61.
 ages3 = [5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31]
 
 percentile_age3 = numpy.percentile(ages3, 90)

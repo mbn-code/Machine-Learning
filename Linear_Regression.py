@@ -8,14 +8,14 @@ age = [5,7,8,7,2,17,2,9,4,11,12,9,6]
 speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 
 
-# Method to retun key values of linear regression.
+# Method to return key values of linear regression.
 slope, intercept, r, p, std_err = stats.linregress(age,speed)
 
-# Function which uses slop eand intercept values to return x. The value represents where on the y axies the x value will be placed
+# Function which uses slop and intercept values to return x. The value represents where on the y-axis the x value will be placed
 def main(x):
     return slope * x + intercept
 
-# use this function now to run each value of the x array. This iwll give a new array with new values for the y axies.
+# use this function now to run each value of the x array. This wll give a new array with new values for the y-axis.
 model = list(map(main, age))
 
             # x, y
